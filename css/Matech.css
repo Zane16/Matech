@@ -51,7 +51,7 @@
     .Home{
         position: absolute;
         width: 80px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         top: 50px;
         left: 40px;
@@ -65,7 +65,7 @@
         width: 80px;
         top: 120px;
         right: 20px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
@@ -78,7 +78,7 @@
         width: 120px;
         top: 200px;
         left: 70px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
@@ -91,7 +91,7 @@
         width: 85px;
         top: 280px;
         left: 70px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
@@ -104,7 +104,7 @@
         width: 85px;
         bottom: 20px;
         left: 70px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
@@ -116,7 +116,7 @@
         width: 85px;
         left: -20px;
         bottom: -60px;
-        font-family: Arial;
+        font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
@@ -126,7 +126,7 @@
     
     .hist{
         position: absolute;
-        font-family: Arial;
+        font-family: Poppins;
         font-size: 40px;
         left: 300px;
         top: 100px;
@@ -136,7 +136,7 @@
         width: 1200px;
         height: -1500px;
         position: absolute;
-        font-family: Arial;
+        font-family: Poppins;
         left: 290px;
         bottom: 465px;
         z-index: -1;
