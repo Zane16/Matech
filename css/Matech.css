@@ -50,78 +50,100 @@
     
     .Home{
         position: absolute;
-        width: 80px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         top: 50px;
-        left: 40px;
         border: none;
-        left: 70px;
+        left: 60px;
         color: #ffffff;
-        font-size: 22px;
+        font-size: 23px;
+        cursor: pointer;
     }
+
+  
+    .Home:hover{
+        color: #2D55B4;
+    }
+
     .Todo{
         position: absolute;
-        width: 80px;
+        width: 114px;
         top: 120px;
-        right: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
-        left: 70px;
+        left: 65px;
         font-size: 22px;
+        cursor: pointer;
         
     }
     .Messages{
         position: absolute;
         width: 120px;
         top: 200px;
-        left: 70px;
+        left: 65px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
-        
-        
         font-size: 22px;
+        cursor: pointer;
     }
     .History{
         position: absolute;
         width: 85px;
         top: 280px;
-        left: 70px;
+        left: 65px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
-        
         font-size: 22px;
+        cursor: pointer;
     }
     
     .Settings{
-        position: relative;
+        position: absolute;
         width: 85px;
-        bottom: 20px;
-        left: 70px;
+        bottom: 250px;
+        left: 65px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
-        
         font-size: 22px;
+        cursor: pointer;
     }
     .Logout{
-        position: relative;
+        position: absolute;
         width: 85px;
-        left: -20px;
-        bottom: -60px;
+        left: 65px;
+        bottom: 170px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
         font-family: Poppins;
         background-color: #313442;
         border: none;
         color: #ffffff;
-      
         font-size: 22px;
+        cursor: pointer;
     }
     
     .hist{
@@ -141,5 +163,8 @@
         bottom: 465px;
         z-index: -1;
     }
+
+
+
 
 
