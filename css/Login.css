@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    background: #000000;
+
+ 
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(19366.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    z-index: -1;
+}
+
+*{
+    text-decoration: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    border-radius: 0% 0% 40px 40px;
+    background-color: #313442;
+    font-family: Poppins;
+    width: 100%;
+    height: 80px;
+ 
+}
+.navdiv{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 300px;
+    margin: 25px;
+}
+
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    height: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px 60px 70px;
+
+}
+
+.input-field{
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 3px;
+    outline: 1pt;
+    align-items: center;
+    display: flex;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 7px;
+    outline: 1px;
+    padding: 10px 10px;
+    font-family: Poppins;
+    z-index: 2;
+}
+
+
