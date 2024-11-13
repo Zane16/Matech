@@ -87,13 +87,16 @@
         width: 1200px;
         top: 29%;
         left: 300px;;
-        
+        word-spacing: 200px;
         height: 50px;
-        
         font-family: Poppins;
-      
     }
 
+    .table-content{
+        border-collapse: collapse;
+        margin: 25px, 0;
+        min-width: 1200px;
+    }
 
   
 
