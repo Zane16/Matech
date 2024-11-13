@@ -1,8 +1,9 @@
 
     body {
+        background-position: center;
+        background-size: cover;
         margin: 0;
         background-color: #EFF2FB;
-        max-height: 100%;
     }
 
     .sidebar{
@@ -23,7 +24,7 @@
         width: 170px;
         
         list-style: none;
-        margin-left: 10px;
+        margin-left: 10%;
         margin-bottom: 30px;
         color: #ffffff;
         font-size: 21px;
@@ -53,9 +54,9 @@
     }
 
     .top-box{
-        
-        
-        width: 100%;
+        position: absolute;
+        top: 0;
+        width: 1535px;
         height: 100px;
         background-color: #ffffff;
         z-index: -1;
@@ -80,12 +81,13 @@
         top: 100px;
         color: #2D55B4;
     }
-    table{
+    .table{
         background-color: #ffffff;
         position: absolute;
-        bottom: 450px;
-        left: 300px;
         width: 1200px;
+        top: 29%;
+        left: 300px;;
+        
         height: 50px;
         
         font-family: Poppins;
@@ -93,6 +95,7 @@
     }
 
 
+  
 
 
 
