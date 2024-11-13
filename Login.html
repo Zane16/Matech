@@ -6,6 +6,7 @@
             <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
             <link rel="stylesheet" href="css/Login.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            <script type="module" src="login.js" defer></script>
 
             
             
@@ -24,30 +25,21 @@
                 <div class="form-box">
                     <img src="\css\MatechImg.png">
                     <form>
+                        <div id="signInMessage" class="messageDiv" style="display: none;"></div>
                         <div class="input-field">
-                            <input type="email" placeholder="Email:">
+                            <input type="email" id="email" placeholder="Email:" required>
                         </div>
 
                         <div class="input-field">
-                            <input type="password" placeholder="Password:">
+                            <input type="password" id="password" placeholder="Password:" required>
                         </div>
+                        <button type="submit" id="signIn-btn" class="btn">Sign In</button>
 
-
-                        
-                        <button type="submit" class="btn">Sign In</button>
                         <h2 class="title">or continue with</h2>
                         <button type="button" class="google"><img src="/css/pngwing.com.png" alt="">Sign In with Google</button>
-
-                        
-                            <p class="signup">Don't have an Account? <a href="register.html" style="text-decoration: underline;">Sign Up Now</a>.</p>
-                        
-                        
-                        
-                        
-
+                        <p class="signup">Don't have an Account? <a href="register.html" style="text-decoration: underline;">Sign Up Now</a>.</p>                       
                     </form>
-
-                    
+      
                 </div>
             </div>
 

@@ -6,6 +6,7 @@
             <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
             <link rel="stylesheet" href="css/Register.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            <script type="module" src="register.js" defer></script>
 
             
             
@@ -24,21 +25,20 @@
                 <div class="form-box">
                     <h3 class="title1">Register</h3>
                     <form>
+                        <div id="signUpMessage" class="messageDiv" style="display: none;"></div>
                         <div class="input-field">
-                            <input type="text" placeholder="Username:">
+                            <input type="text" placeholder="Username:" id="rname" required>
                         </div>
 
                         <div class="input-field">
-                            <input type="email" placeholder="Email:">
+                            <input type="email" placeholder="Email:" id="remail" required>
                         </div>
 
                         <div class="input-field">
-                            <input type="password" placeholder="Password:">
+                            <input type="password" placeholder="Password:" id="rpassword" required>
                         </div>
 
-
-                        
-                        <button type="submit" class="btn">Sign In</button>
+                        <button type="submit" id="submit-btn" class="btn">Sign Up</button>
                         <h2 class="title">or continue with</h2>
                         <button type="button" class="google"><img src="/css/pngwing.com.png" alt="">Sign Up with Google</button>
 
