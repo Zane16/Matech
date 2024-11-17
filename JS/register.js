@@ -54,7 +54,7 @@
         const docRef=doc(db, "users", user.uid);
         setDoc(docRef,userData)
         .then(()=>{
-            window.location.href='Login.html';
+            window.location.href='login.html';
         })
         .catch((error)=>{
             console.error("error writing document", error);
@@ -72,28 +72,4 @@
   });
 
 
-  const signin=document.getElementById('signIn-btn');
-  signin.addEventListener('click', (event)=>{
-    event.preventDefault();
-    const email=document.getElementById('email').value;
-    const password=document.getElementById('password').value;
-    const auth=getAuth();
-
-    signInWithEmailAndPassword(auth, email,password)
-    .then((userCredential)=>{
-        showMessage('login is succesful', 'signInMessage');
-        const user=userCredential.user;
-        localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href='History.html';
-    })
-    .catch((error)=>{
-        const errorCode=error.code;
-        if(errorCode==='auth/invalid-credential'){
-            showMessage('Incorrect Email or Password', 'signInMessage');
-        }
-        else{
-            showMessage('Account does not Exist', 'signInMessage')
-        }
-    })
-
-  })
+  

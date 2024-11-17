@@ -45,7 +45,7 @@
         showMessage('login is succesful', 'signInMessage');
         const user=userCredential.user;
         localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href='History.html';
+        window.location.href='#';
     })
     .catch((error)=>{
         const errorCode=error.code;
